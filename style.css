@@ -6,8 +6,8 @@ body{
 
 h1{
     text-align: center;
-    color:white;
-    background-color:blue;
+    color:black;
+    background-color:lightskyblue;
     padding: 10px;
     margin:auto
 }
@@ -17,20 +17,43 @@ h1{
     margin-right: 10px; 
   }
 
-.aboutme, .work, .contactme {
+.aboutme {
 display: grid;
 float: left;
-grid-template-columns: 100px 700px;
-padding: 60px;
-margin: 50px;
+grid-template-columns: 20% 50%;
+padding: 5%;
 }
 
-.work{
-   column-gap: 500px;
-   border-style: solid;
+.aboutme h2 {
+  border-right: 2px solid black;
 }
 
-.contactme{
-  border-bottom-style: solid;
-  border-bottom-color: navy;
+.aboutme p {
+  padding: 5% 5%;
+}
+
+.work {
+  display: grid;
+  float: left;
+  grid-template-columns: 50% 70%;
+  padding: 5% 5% 5%;
+}
+
+.work h2 {
+  border-right: 2px solid black;
+}
+
+.contactme {
+  display: grid;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  grid-template-columns: 10% 10%;
+  padding: 5% 5%;
+  float: left;
+}
+
+.contactme h2 {
+  border-right: 2px solid black;
 }
