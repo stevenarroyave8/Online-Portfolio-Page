@@ -1,22 +1,30 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
 footer {
-background-color: whitesmoke;
+background-color: #97BC62FF;
 text-align: center;
 padding: 1%;
 }
 
 h2 {
   margin-top: 0;
+  border-right: 2px solid black;
+  width: 15%;
+  margin-right: 5%;
+  font-size: 40px;
+  text-align: right;
+  padding-right: 40px;
 }
-
+section p {
+  width: 75%;
+}
 a {
-  color: blue;
+  color: black;
   text-decoration: none;
 }
 
@@ -25,26 +33,12 @@ a:hover {
 }
 /* Grid Styles */
 .aboutme, .work, .contactme {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto;
-  gap: 20px;
+  display: flex;
   padding: 20px;
-}
-
-/* About Section */
-.aboutme {
-  grid-column: 1 / span 2;
-  grid-row: 1;
-  background-color: whitesmoke;
+  background-color: #97BC62FF
 }
 
 /* Work Section */
-.work {
-  grid-column: 1 / span 3;
-  grid-row: 2;
-  background-color: lightgray;
-}
 
 .work ul {
   list-style: none;
@@ -55,39 +49,24 @@ a:hover {
 .work li {
   margin-bottom: 20px;
   padding: 10px;
-  border: 2px solid gray;
-  border-radius: 5px;
 }
 
 /* Contact Section */
-.contactme {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-  background-color: whitesmoke;
-}
-
 .contactme ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0;
-}
-
-.contactme li {
-  margin-bottom: 5px;
+  gap: 300px;
+  height: 100px;
 }
 
 /* Header Styles */
 .header {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
-  padding: 10px;
+  background-color: #2C5F2D;
 }
 
 .header h1 {
@@ -98,7 +77,6 @@ a:hover {
 
 .header ul {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   margin: 0;
@@ -113,7 +91,6 @@ a:hover {
 }
 
 .header a:hover {
-  background-color: white;
-  color: black;
+  background-color: #97BC62FF;
   border-radius: 5px;
 }
