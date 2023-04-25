@@ -1,4 +1,4 @@
-![challenge2 screenshot](https://user-images.githubusercontent.com/128537787/231919499-61d0b81b-d866-4140-9a0b-1aae9f5ff7d8.png)
+![Updated SS](https://user-images.githubusercontent.com/128537787/234399171-ba3f86b1-7f27-49f0-ad91-1c9b0110688c.png)
 # Week2-Challenge-Online-Portfolio-Page
 This weeks challenege consisted of creating a code from scratch to create a web application for our own online portfolio.
 ## About 
